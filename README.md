@@ -1,5 +1,6 @@
 # 3005A4
 DEMO: https://youtu.be/a6dcisaw9U0
+
 Instructions:
 1. Create local database using postgreSQL
 2. create students table according to requirements
@@ -10,13 +11,13 @@ Instructions:
     email TEXT NOT NULL UNIQUE,
     enrollment_date DATE);
 3. Insert demo data
-    INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
-    ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
-    ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
-    ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
-4. run app.py
+   INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
+   ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
+   ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
+   ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+5. run app.py
    python app.py
-5. see database changes accodring to data entered in app.py code
+6. see database changes accodring to data entered in app.py code
 
 app.py:
 Connects to a database to perform specific CRUD (Create, Read, Update, Delete) operations
