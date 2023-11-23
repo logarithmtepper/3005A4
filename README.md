@@ -42,18 +42,18 @@ Retrieves and displays all records from the students table
 using sql query executed in database seesion by cursor
 prints message reporting success or failure
 
-Function addStudent():
-Inserts a new student record into the students table.
+Function addStudent(first_name, last_name, email, enrollment_date):
+Inserts a new student record into the students table using the provided data
 using sql query executed in database seesion by cursor
 prints message reporting success or failure
 
-Function updateStudentEmail():
-Updates the email address for a student with the specified student_id
+Function updateStudentEmail(student_id, new_email):
+Updates the email address for a student with the specified student_id using the provided data
 using sql query executed in database seesion by cursor
 prints message reporting success or failure
 
-Function deleteStudent():
-Deletes the record of the student with the specified student_id
+Function deleteStudent(student_id)::
+Deletes the record of the student with the provided student_id
 using sql query executed in database seesion by cursor
 prints message reporting success or failure
 
