@@ -27,7 +27,7 @@ Instructions:
    
    python app.py
 
-8. see database changes accodring to data entered in app.py code
+8. see database changes accodring to data entered in app.py function signatures
 
 app.py:
 Connects to a database to perform specific CRUD (Create, Read, Update, Delete) operations
